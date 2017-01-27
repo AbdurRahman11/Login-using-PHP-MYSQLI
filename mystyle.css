@@ -1,0 +1,63 @@
+body{
+background:#black;
+}
+
+#frm{
+background:#5098ea;
+color : white;
+margin : 70px auto;
+padding-top : 20px;
+padding-left : 20px;
+padding-bottom : 20px;
+position : relative;
+width : 300px;
+border-radius : 10px;
+text-align : center ;
+}
+
+h1{
+
+  color: #000;
+  text-align: center;
+  font-family: 'Poiret One', verdana, arial;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.txarea{
+width : auto;
+text-align:center;
+padding : 2px;
+font-family: 'Poiret One', verdana, arial;
+color:#3f3f40;
+background:#f1f2f3;
+font-weight: bold;
+}
+
+input:focus {
+  outline: none;
+}
+
+#btn{
+background : #022263;
+color : #fff;
+width : 100px;
+height : 30px;
+border-radius:5px;
+font-family: 'Poiret One', verdana, arial;
+}
+
+#btn:hover {
+  background: #506275;
+  color: white;
+  font-weight: bold;
+border-radius:5px;
+font-family: 'Poiret One', verdana, arial;
+}
+
+#btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  font-family: 'Poiret One', verdana, arial;
+}
